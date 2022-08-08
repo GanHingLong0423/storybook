@@ -28,17 +28,7 @@
      "require": "./dist/index.js", 
      "import": "./dist/index.mjs", 
      "types": "./dist/index.d.ts" 
-   }, 
-   "./dist/runtime": { 
-     "require": "./dist/runtime.js", 
-     "import": "./dist/runtime.mjs", 
-     "types": "./dist/runtime.d.ts" 
-   }, 
-   "./dist/globals": { 
-     "require": "./dist/globals.js", 
-     "import": "./dist/globals.mjs", 
-     "types": "./dist/globals.d.ts" 
-   }, 
+   },
    "./paths": "./paths.js", 
    "./package.json": "./package.json" 
   },
@@ -61,10 +51,7 @@
   },
   "bundler": {
     "entries": [
-      "./src/index.tsx",
-      "./src/globals.ts",
-      "./src/runtime.ts"
-    ]
+      "./src/index.tsx"
   },
   "gitHead": "bd59f1eef0f644175abdb0d9873ed0553f431f53"
 }
